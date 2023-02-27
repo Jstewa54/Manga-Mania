@@ -1,0 +1,104 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .8);
+    font-family: 'Gajraj One', cursive;
+    text-shadow: 2px 3px 3px black;
+}
+
+.nav-link {
+    color: rgb(255, 0, 162) !important;
+
+}
+
+.nav-link:hover {
+    /* color: rgb(255, 0, 162) !important; */
+    opacity: .95;
+    text-shadow: 2px 3px 3px rgb(0, 191, 255);
+    color: #fff !important;
+    text-shadow: 0 0 5px rgb(0, 191, 255),
+                0 0 25px rgb(0, 191, 255),
+                0 0 50px rgb(0, 191, 255),
+                0 0 100px rgb(0, 191, 255);
+    letter-spacing: 1px;
+    font-size: 25px;
+    transition: .5s
+}
+
+
+.navT {
+    font-size: 30px;
+    color: rgb(255, 0, 162);
+    text-shadow: 2px 3px 3px white;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+
+/* CSS for the logo */
+#logo {
+    height: 37px;
+    transform: rotate(-25deg);
+    position: relative;
+}
+
+#logo2 {
+    transform: rotate(-25deg);
+}
+
+/* This is the settigns for the animation logo bounce hover  */
+@keyframes bounce {
+    15% {
+        transform: translateY(5px);
+
+    }
+
+    30% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(3px);
+
+    }
+
+    65% {
+        transform: translateY(-3px);
+    }
+
+    80% {
+        transform: translateY(2px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#logo:hover {
+    animation: bounce 4s ease;
+    animation-iteration-count: 1;
+}
+
+#logo2:hover {
+    animation: bounce 4s ease;
+    animation-iteration-count: 1;
+}
+
+#logo3:hover {
+    animation: bounce 8s ease;
+    animation-iteration-count: 50;
+}
+
+.navT:hover {
+    color: #fff;
+    text-shadow: 0 0 5px rgb(255, 0, 162),
+                0 0 25px rgb(255, 0, 162),
+                0 0 50px rgb(255, 0, 162),
+                0 0 100px rgb(255, 0, 162);
+    transition: 0.7s;
+  }
+

@@ -1,0 +1,64 @@
+@import url(nav.css);
+
+a {
+	font-family: 'Gajraj One', cursive;
+}
+
+body
+{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    scroll-behavior: smooth;
+}
+
+p {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 1.05em;
+    line-height: 1.45em;
+    letter-spacing: .1em;
+}
+
+.page-title {
+	font-family: 'Gajraj One', cursive;
+    color: rgb(255 , 0, 200);
+    text-shadow: 2px 3px 5px white;
+}
+.page-subtitle {
+	font-family: 'Gajraj One', cursive;
+	 color: rgb(255 , 0, 200);
+     text-shadow: 5px 3px 5px black;
+}
+
+.section-title {
+    color: rgb(255 , 0, 200) !important;
+    text-shadow: 2px 3px 5px white;
+	font-family: 'Gajraj One', cursive;
+}
+#hero-section {
+	background-image: url(img/about/about.jpg);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+#mission-section, #partners-section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.carousel-caption {
+	background-color: rgba(0,0,0,.5);
+}
+
+p::first-letter {
+    color: rgb(255, 0, 162);
+    letter-spacing: 1.5px;
+    
+}

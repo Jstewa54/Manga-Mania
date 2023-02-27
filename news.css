@@ -1,0 +1,103 @@
+@import url(nav.css);
+
+/* Global */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    scroll-behavior: smooth;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.632), rgba(0, 0, 0, 0.605)), url(img/news/newsbg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Classes */
+.top {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    color: #000;
+    padding-top: 60px;
+}
+
+.title h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 55px;
+    font-family: 'Gajraj One', cursive;
+    text-transform: uppercase;
+    color: rgb(255 , 0, 162);
+    text-shadow: 2px 3px 5px white;
+
+
+}
+
+/* Parallax */
+.parallax1 {
+    position: relative;
+    background-image: url(img/hero/manga.jpg);
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax2 {
+    text-align: center;
+    background-image: url(img/news/wedding.jpg);
+    min-height: 50vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.overlay h2 {
+    position: relative;
+    margin: 0;
+    font-size: 5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+}
+
+.parallax3 {
+    position: relative;
+    background-image: url(img/news/news2.jpg);
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Paragraph */
+.paragraph {
+    margin: 3em 0;
+}
+
+.paragraph p {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 1.05em;
+    line-height: 1.45em;
+    letter-spacing: .1em;
+}
+
+p::first-letter {
+    color: rgb(255, 0, 162);
+}

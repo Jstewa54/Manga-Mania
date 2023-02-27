@@ -1,0 +1,14 @@
+@import url(nav.css);
+@import url(popular.css);
+
+
+#imgs
+{
+    border: 10px double black;
+    background-color: rgba(255, 0, 234, 0.648);
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 175px;
+  width: 50%;
+}
